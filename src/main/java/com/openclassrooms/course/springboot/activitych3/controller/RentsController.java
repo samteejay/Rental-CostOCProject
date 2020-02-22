@@ -23,6 +23,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * http://localhost:8080/rent?city=sydney&currency=AUD on your browser to see
  * how it works
  */
+
 @RestController
 public class RentsController {
 
@@ -101,7 +102,7 @@ public class RentsController {
      * InputStreamReader(resource))).withType(Rent.class).build().parse(); }
      */
     /**
-     * This calls an external API on the internet from https://currencylayer.com
+     * This calls an external API on the internet coming from https://currencylayer.com
      * It's free and you can get your own access_key from the website to see and
      * example of the API output go to:
      * http://apilayer.net/api/live?access_key=e8f742c7609c8d94f4d40f7d1fd104d9&currencies=AUD&format=1
